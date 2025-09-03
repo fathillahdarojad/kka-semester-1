@@ -1,0 +1,722 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM1prqRFgRKoclLTIYK/F3M",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/fathillahdarojad/kka-semester-1/blob/main/Fungsi_print_fathillah_AD_11_X1_ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#menampilka teks bebas"
+      ],
+      "metadata": {
+        "id": "gXhQclmsHlv2"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (\"halo dunia\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Xn33d4NQGpta",
+        "outputId": "dfa247cd-2fac-49b8-e513-b1f7d3f2c125"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "halo dunia\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (\"Selamat datang di python\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6q7g2-U0HwLi",
+        "outputId": "68fee90f-a1a2-46ff-a5e0-ff1f288f39ca"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Selamat datang di python\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#variabel"
+      ],
+      "metadata": {
+        "id": "HwU_Xrh7IVdR"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "bb = 66\n",
+        "print (bb)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fG51jBrdJOMN",
+        "outputId": "b58be495-9082-466a-ae81-283b58066bce"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "66\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "usia = 15\n",
+        "print (usia)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "r6xflMTOJW_M",
+        "outputId": "bd56fb3d-a07a-4a82-b282-5e925d73528a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#menampilkan teks bebas dan variabel"
+      ],
+      "metadata": {
+        "id": "EWpZi3IPIwjy"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ens3LaPiEpcz",
+        "outputId": "890660f5-6dd6-4609-d5a9-366fc22b32e4"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Fathillah Akbar Darojad 15 160\n"
+          ]
+        }
+      ],
+      "source": [
+        "nama = \"Fathillah Akbar Darojad\"\n",
+        "usia = 15\n",
+        "tingi = 160\n",
+        "\n",
+        "print (f\"{nama} {usia} {tingi}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "umur = 15\n",
+        "print (f\"umur saya {umur} tahun\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TOzHgXaHJujw",
+        "outputId": "874088d0-fffe-44c0-e23d-a1a3a2146fdd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "umur saya 15 tahun\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "94PHAtl2SJLo"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "bb = 66\n",
+        "print (f\"beberatrat gwehh {bb} kg\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GUk1Au4kKTUi",
+        "outputId": "987cd5a5-8b93-4169-fb35-8c8d5a3d0e82"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "berat gwehh 66 kg\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nama_pembeli = \"toyo\"\n",
+        "print(\"nama pembeli telur adalah \" + nama_pembelpembelii)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1CFgvOKmFJ13",
+        "outputId": "95244cdf-b50f-4017-92b5-fbdf048f201a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nama pembeli telur adalah toyo\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "latihan soal\n",
+        "\n",
+        "1. tanpilkan teks bebas: Hari ini saya bahagia belajar bahasa python\n",
+        "2. tampilkan nilai variabel:mata_pelajaran_favorit = kode dan kecerdasan buatan\n",
+        "3. tampilkan nilai variabel : nilai_kka = 100\n",
+        "4. tampilkan teks bebas dan nilai variabel dengan tiga metode (f string, \"+\", \", \") : \" nilai KKA saya adalah {nilai_kka} loh! \""
+      ],
+      "metadata": {
+        "id": "umklWlbOGsz1"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Escape character"
+      ],
+      "metadata": {
+        "id": "9p_uOw2FJJCZ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"nama: nama Fathillah Akbar Darojad\")\n",
+        "print(\"kelas: XI.1\")\n",
+        "print(\"nomor absen: 11\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HewRkxNYJNYQ",
+        "outputId": "42cdf6ef-1082-464d-b337-85e389862224"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nama: nama Fathillah Akbar Darojad\n",
+            "kelas: XI.1\n",
+            "nomor absen: 11\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (\"nama\\t\\t: Fathillah Akbar Darojad\\nkelas\\t\\t: 11.1\\nNomor absen\\t: 11\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pEmrrutRKc3L",
+        "outputId": "a9ae4ecb-1bd3-43fe-9962-41dc47aeda0b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nama\t\t: Fathillah Akbar Darojad\n",
+            "kelas\t\t: 11.1\n",
+            "Nomor absen\t: 11\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"\"\"nama: nama Fathillah Akbar Darojad\n",
+        "kelas: XI.1nomor absen: 11\"\"\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bNhUAZIxLHGx",
+        "outputId": "a8578095-e511-4d80-aaf7-4dafa8830899"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nama: nama Fathillah Akbar Darojad\n",
+            "kelas: XI.1nomor absen: 11\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"ja'far shodiq\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qbnei5jvCZJE",
+        "outputId": "74819124-78a2-4e02-ac77-d9a2a95ed0c2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ja'far shodiq\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('ja\\'far shodiq')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HJw1fIDhClk0",
+        "outputId": "59629b0d-204f-477a-beaf-853c6292c4a0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ja'far shodiq\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"ghais berkata, \\\"aku sang penakluk menjanh.\\\"\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8qERMus6CzHq",
+        "outputId": "6bf15908-3d7e-4e17-f2cf-375ed435e5ef"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ghais berkata, \"aku sang penakluk menjanh.\"\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"lokasi file menjang skuyy ada di D:\\\\menjang 2035\\\\mp5\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yDmzd19ZDPO2",
+        "outputId": "7df198de-11dd-4bc2-bb85-e9ffa62170c3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "lokasi file menjang skuyy ada di D:\\menjang 2035\\mp5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#parameter fungsi print"
+      ],
+      "metadata": {
+        "id": "_ozN5Y7OGrnk"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tahun = 2010\n",
+        "tanggal = 29\n",
+        "bulan = \"juli\"\n",
+        "\n",
+        "print(tahun)\n",
+        "print(tanggal)\n",
+        "print(bulan)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fbABUoTJGw-N",
+        "outputId": "9c5b2560-0429-4a11-b73c-b8959671a365"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2010\n",
+            "29\n",
+            "juli\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tahun = 2010\n",
+        "tanggal = 29\n",
+        "bulan = \"juli\"\n",
+        "\n",
+        "print(tahun, end=\" \")\n",
+        "print(tanggal, end=\" \")\n",
+        "print(bulan)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kHiHuGIAHomy",
+        "outputId": "1fcb1965-d5ad-4690-d384-8be81ea889ee"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2010 29 juli\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tahun = 2010\n",
+        "bulan = \"juli\"\n",
+        "tanggal = 29\n",
+        "\n",
+        "print(tanggal, bulan, tahun)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RERlH_FhH4Sh",
+        "outputId": "75efe697-7b27-4e9e-ff26-d017f7af9be4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "29 juli 2010\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "latihan"
+      ],
+      "metadata": {
+        "id": "ad8NzWP0IsWu"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nama_depan = \"fathillah\"\n",
+        "nama_belakang = \"akbar\"\n",
+        "\n",
+        "print(nama_depan, nama_belakang)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uORBttoyItkP",
+        "outputId": "dfa2c3b9-a802-4a21-83d0-2947670eacd6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "fathillah akbar\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nama_depan = \"fathillah\"\n",
+        "nama_belakang = \"akbar\"\n",
+        "\n",
+        "print(nama_depan, end=\" \")\n",
+        "print(nama_belakang)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yAgVIsJWJLgP",
+        "outputId": "773a484b-8ad5-44b3-ae5f-baeeef1d2321"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "fathillah akbar\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tahun = 2010\n",
+        "bulan = \"juli\"\n",
+        "tanggal = 29\n",
+        "\n",
+        "print(tanggal, bulan, tahun, sep=\"-\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bz52dCykJlyb",
+        "outputId": "0e57da53-eed0-4281-a30c-2fe074144b26"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "29-juli-2010\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"bu shinta berkata, \\\"berikut adalah judul pelajaran hari senin selasa rabu silahkan simpan di laptop masing-masing di folder local disk D:\\\\jadwal pelajaran\\\\kelas XI semester!\\\"\\n\")\n",
+        "print(\"jadwal pelajaran mingguan \", )\n",
+        "print(\"==========================\")\n",
+        "print(\"jam\\tsenin\\tselasa\\trabu\")\n",
+        "print('jam1 matematika bahasa informatika')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0x1MgIeTLuvw",
+        "outputId": "e80f506f-66dc-4a7d-d5ce-c001dc65eeef"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "bu shinta berkata, \"berikut adalah judul pelajaran hari senin selasa rabu silahkan simpan di laptop masing-masing di folder local disk D:\\jadwal pelajaran\\kelas XI semester!\"\n",
+            "\n",
+            "jadwal pelajaran mingguan \n",
+            "==========================\n",
+            "jam\tsenin\tselasa\trabu\n",
+            "jam1 matematika bahasa informatika\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nama_siswa_1 = \"naufal\"\n",
+        "nama_siswa_2 = \"favian\"\n",
+        "nama_siswa_3 = \"humaira\"\n",
+        "nama_siswa_4 = \"favian\"\n",
+        "print(nama_siswa_1, nama_siswa_2, nama_siswa_3, nama_siswa_4, sep=\"~\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8_gm0GTSE9Ql",
+        "outputId": "089e4209-224d-4e0f-d42f-4bced33d65f3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "naufal~favian~humaira~favian\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(nama_siswa_1, end=\"~\")\n",
+        "print(nama_siswa_2)\n",
+        "print(nama_siswa_3, end=\"~\")\n",
+        "print(nama_siswa_2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "B3A6WXARGwtq",
+        "outputId": "0c95fc49-0b58-46a0-b51e-316b8de5095c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "naufal~favian\n",
+            "humaira~favian\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
